@@ -1,4 +1,4 @@
-import { RxHome, RxPerson, RxClipboard } from "react-icons/rx";
+import { RxHome, RxPerson, RxClipboard, RxRocket } from "react-icons/rx";
 
 export const SkillData = [
   {
@@ -57,12 +57,6 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Stripe Payment",
-    Image: "/stripe.webp",
-    width: 80,
-    height: 80,
-  },
-  {
     name: "Node js",
     Image: "/node-js.png",
     width: 80,
@@ -87,6 +81,11 @@ export const NavLinks = [
     name: "/my-skills",
     icon: RxPerson,
     link: "/my-skills",
+  },
+  {
+    name: "/my-projects",
+    icon: RxRocket,
+    link: "/my-projects",
   },
   {
     name: "/contact-me",

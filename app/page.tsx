@@ -11,22 +11,45 @@ export default function Home() {
         style={{ backgroundImage: "url(/main-bg.webp)" }}
       >
         <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
-          <h1 className="text-[50px] text-white font-semibold">
-            Welcome to 
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
-              {" "}
-              Shawn Portfolio
-            </span>
-          </h1>
-          <p className="text-gray-200 hidden md:block">
-            This portfolio is built with NextJS, React and Farmer Motion.
+          <div className="flex items-center gap-6">
+            <h1 className="text-[50px] text-white font-semibold">
+              Welcome to
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
+                {" "}
+                Shawn's Portfolio
+              </span>
+            </h1>
+          </div>
+          
+          <p className="text-gray-200 text-xl">
+            Full Stack Developer 
           </p>
+          
+          <p className="text-gray-300 text-lg max-w-[600px]">
+            Focused on creating modern web applications. 4+ years of development experience, passionate about frontend innovation and user experience design.
+          </p>
+
+          <div className="flex gap-8 mb-6">
+            <div className="text-center">
+              <div className="text-3xl font-bold text-purple-500">4+</div>
+              <div className="text-gray-300">Years Experience</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-purple-500">20+</div>
+              <div className="text-gray-300">Projects</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-purple-500">15+</div>
+              <div className="text-gray-300">Technologies</div>
+            </div>
+          </div>
+
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
               href="/my-skills"
               className="rounded-[20px] group relative bg-trasparent border border-white px-5 py-3 text-lg text-white max-w-[300px]"
             >
-              More Skills
+              View Skills
             </Link>
             <Link
               href="/contact-me"
@@ -44,20 +67,20 @@ export default function Home() {
           href="/my-skills"
           className="rounded-[20px] group bg-blue-500 px-5 py-3 text-lg text-white max-w-[200px]"
         >
-          Learn more
+          Learn More
         </Link>
 
         <Link
           href="/my-projects"
           className="rounded-[20px] group bg-trasparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
         >
-          My projects
+          My Projects
         </Link>
         <Link
           href="/contact-me"
           className="rounded-[20px] group bg-trasparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
         >
-          Contact me
+          Contact Me
         </Link>
       </div>
 
