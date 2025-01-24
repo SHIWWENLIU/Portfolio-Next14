@@ -16,7 +16,7 @@ export default function Home() {
               Welcome to
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
                 {" "}
-                Shawn's Portfolio
+                Shawn&apos;s Portfolio
               </span>
             </h1>
           </div>
